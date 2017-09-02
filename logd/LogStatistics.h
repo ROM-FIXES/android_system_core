@@ -28,7 +28,7 @@
 
 #include <android-base/stringprintf.h>
 #include <android/log.h>
-#include <private/android_filesystem_config.h>
+#include "../libcutils/include/private/android_filesystem_config.h"
 
 #include "LogBufferElement.h"
 #include "LogUtils.h"

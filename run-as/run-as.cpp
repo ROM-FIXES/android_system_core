@@ -29,7 +29,7 @@
 #include <scoped_minijail.h>
 
 #include <packagelistparser/packagelistparser.h>
-#include <private/android_filesystem_config.h>
+#include "../libcutils/include/private/android_filesystem_config.h"
 #include <selinux/android.h>
 
 // The purpose of this program is to run a command as a specific
